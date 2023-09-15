@@ -1,13 +1,15 @@
 
 import './App.css'
-
+import Heder from './components/Heder'
+import Blog from './components/Blog/blog'
 function App() {
   
 
   return (
     <>
-      
-      <h1 className='text-2xl bg-red-200'>Vite + React</h1>
+     <Heder></Heder> 
+      <Blog></Blog>
+
       
     </>
   )
